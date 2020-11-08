@@ -5,6 +5,7 @@ main(){
   var one=1.toString();
   print(one);
   
-  var two = 2.toString();
+  var two = 2.1415.toStringAsFixed(2);
+  print(two);
   print(two.runtimeType); 
 }
